@@ -1,8 +1,7 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
+  Portfolio Website<br/>
   <a href="https://findsanketpatil.vercel.app/" target="_blank">Sanket Patil</a>
 </h2>
-<br/>
 
 ## Built With
 
