@@ -1,9 +1,9 @@
-import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import Tilt from "react-parallax-tilt";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/profile_pic.png";
+import "./Home2.css";
 
 function Home2() {
   return (
@@ -20,35 +20,48 @@ function Home2() {
               <br />
               <br />I am a passionate
               <i>
-                <b className="purple"> MERN stack </b>
+                <b className="purple"> Full-Stack Software Engineer </b>
               </i>
-              developer with a strong foundation in
+              &nbsp;with over
               <i>
-                <b className="purple"> JavaScript, TypeScript </b>
+                <b className="purple"> 3 years of experience </b>
               </i>
-              building scalable and efficient full-stack web applications.
+              &nbsp;building scalable, secure, and user-friendly applications,
+              primarily in the
+              <i>
+                <b className="purple"> fintech and product development</b>
+              </i>
+              &nbsp;domains. I specialize in
+              <i>
+                <b className="purple"> React, TypeScript, and Redux </b>
+              </i>
+              &nbsp;on the frontend, and have strong backend experience with
+              <i>
+                <b className="purple">
+                  &nbsp;Java (Spring Boot), Kotlin (Ktor), and Node.js
+                </b>
+              </i>
+              .
               <br />
-              <br />
-              With hands-on experience in &nbsp;
+              <br />I love architecting clean and modular systems—whether it’s
+              designing
               <i>
-                <b className="purple"> MongoDB</b>,
+                <b className="purple">
+                  &nbsp;REST APIs, implementing authentication with JWT, or with
+                  Docker and CI/CD pipelines
+                </b>
               </i>
+              &nbsp; I’ve also worked with
               <i>
-                <b className="purple"> Express.js</b>,
+                <b className="purple">
+                  &nbsp;micro frontends, Storybook UI libraries,
+                </b>
               </i>
+              &nbsp;and message queues like
               <i>
-                <b className="purple"> React </b>
+                <b className="purple">&nbsp;AWS SQS</b>
               </i>
-              and
-              <i>
-                <b className="purple"> Node.js</b>
-              </i>
-              ,&nbsp;I enjoy turning complex problems into simple, beautiful,
-              and intuitive solutions. My field of Interest's are building new
-              &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products</b>
-              </i>
+              &nbsp; scalable architecture.
               <br />
               <br />I am always eager to learn, experiment, and grow as a
               developer. As I continue to sharpen my skills, I am actively
@@ -59,7 +72,9 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
+              {/* <div className="avatar-wrapper"> */}
               <img src={myImg} className="img-fluid" alt="avatar" />
+              {/* </div> */}
             </Tilt>
           </Col>
         </Row>

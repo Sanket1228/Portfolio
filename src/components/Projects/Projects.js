@@ -1,4 +1,3 @@
-import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import chatify from "../../Assets/Projects/chatify.png";
 import Particle from "../Particle";
@@ -16,6 +15,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="CodeWorld"
+              description="A full-stack code snippet management platform using Node.js, Express, TypeScript, and MongoDB. It features smart code suggestions powered by the OpenAI API, secure JWT-based authentication, and a responsive frontend with React, Redux, and the Monaco Editor. The project is containerized with Docker and deployed on Render using an automated CI/CD pipeline."
+              ghLink="https://github.com/Sanket1228/VTube"
+              demoLink="https://codeworld-m8ds.onrender.com/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}

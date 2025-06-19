@@ -1,4 +1,3 @@
-import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 
@@ -13,7 +12,7 @@ function AboutCard() {
             <br />I am currently employed as a software developer at{" "}
             <span className="purple">Vayana Private Limited</span> .
             <br />I have completed my{" "}
-            <span className="purple">Bachelors of Engineering</span> in
+            <span className="purple">Bachelors of Engineering</span> in{" "}
             <span className="purple">Information Technology</span> from{" "}
             <span className="purple">MET Institute of Engineering, Nashik</span>
             <br />
